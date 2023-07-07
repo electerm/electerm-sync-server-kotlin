@@ -10,7 +10,6 @@ import java.util.*
 class JwtException(message: String) : RuntimeException(message)
 
 fun main() {
-    println("hh")
     val dotenv = Config()
     val secretOri = dotenv.getValue("JWT_SECRET")
     val bytesToEncode = secretOri.toByteArray(StandardCharsets.UTF_8)
@@ -52,7 +51,9 @@ fun main() {
         res.status(r.statusCode)
         r.fileData
     }
-
+    post("/api/sync") { req, res ->
+        "test ok"
+    }
     put("/api/sync") { req, res ->
         val requestBody = req.body()
         val jwtId = req.attribute<Any>("jwtId").toString()
