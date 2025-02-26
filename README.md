@@ -47,6 +47,8 @@ Just take [src/main/kotlin/ElectermSync/FileStore.kt](src/main/kotlin/ElectermSy
 - [electerm-sync-server-java](https://github.com/electerm/electerm-sync-server-java)
 - [electerm-sync-server-node](https://github.com/electerm/electerm-sync-server-node)
 - [electerm-sync-server-python](https://github.com/electerm/electerm-sync-server-python)
+- [electerm-sync-server-deno](https://github.com/electerm/electerm-sync-server-deno)
+- [electerm-sync-server-go](https://github.com/electerm/electerm-sync-server-go)
 
 ## License
 
